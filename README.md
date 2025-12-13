@@ -16,7 +16,7 @@ Result:Password for the next level obtained from the readmefile.
 exit
 
 
-LEVEL 1
+LEVEL 0 - LEVEL 1
 
 Goal: Find the password stored in a file.
 
