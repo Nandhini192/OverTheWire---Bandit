@@ -5,6 +5,7 @@ LEVEL 0:
 Goal: Login to the Bandit server using SSH.
 
 Solution:
+
 ssh bandit0@bandit.labs.overthewire.org -p 2220                                                                                  
 Password:bandit0
 
@@ -17,6 +18,7 @@ LEVEL 0 - LEVEL 1
 Goal: Find the password stored in a file.
 
 Solution:
+
 ssh bandit1@bandit.labs.overthewire.org -p 2220
 
 Password:bandit0
@@ -37,6 +39,8 @@ Result:Successfully obtained the password for Level 1.
 LEVEL 1 - LEVEL 2
 
 Goal: The password for the next level is stored in a file called - located in the home directory.
+
+Solution:
 
 ssh bandit1@bandit.labs.overthewire.org -p 2220
 
@@ -59,7 +63,9 @@ Result:Successfully obtained the password for Level 2.
 LEVEL 2 - LEVEL 3
 
 Goal: The password for the next level is stored in a file called --spaces in this filename-- located in the home directory
+
 Solution:
+
 ssh bandit2@bandit.labs.overthewire.org -p 2220
 
 Enter the password obtained from Level 1.
