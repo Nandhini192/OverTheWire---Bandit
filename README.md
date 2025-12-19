@@ -10,11 +10,6 @@ Password:bandit0
 
 Result:Successfully logged in to bandit level 0.
 
-ls
-cat readme
-Result:Password for the next level obtained from the readmefile.
-exit
-
 
 LEVEL 0 - LEVEL 1
 
@@ -22,11 +17,27 @@ Goal: Find the password stored in a file.
 
 Commands used:
 ssh bandit1@bandit.labs.overthewire.org -p 2220
-Password:use the password found in level 0.
+Password:bandit0
 
-Result:Successfully logged in to bandit level 1.
+ls
+cat readme
+The output is the password for Bandit Level 1
+exit
+
+Result:Successfully obtained the password for Level 1.
+
+
+LEVEL 1 - LEVEL 2
+
+Goal: The password for the next level is stored in a file called - located in the home directory.
+
+ssh bandit1@bandit.labs.overthewire.org -p 2220
+Enter the Password obtained from the level 0
 
 ls
 cat ./-
-Result:shows the password for next level
+The output is the password for Bandit Level 2
 exit
+
+Result:Successfully obtained the password for Level 2.
+
