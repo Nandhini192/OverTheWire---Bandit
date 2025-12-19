@@ -4,7 +4,7 @@ LEVEL 0:
 
 Goal: Login to the Bandit server using SSH.
 
-Solution:
+Commands:
 
 ssh bandit0@bandit.labs.overthewire.org -p 2220                                                                                  
 Password:bandit0
@@ -17,7 +17,7 @@ LEVEL 0 - LEVEL 1
 
 Goal: Find the password stored in a file.
 
-Solution:
+Commands:
 
 ssh bandit1@bandit.labs.overthewire.org -p 2220
 
@@ -40,7 +40,7 @@ LEVEL 1 - LEVEL 2
 
 Goal: The password for the next level is stored in a file called - located in the home directory.
 
-Solution:
+Commands:
 
 ssh bandit1@bandit.labs.overthewire.org -p 2220
 
@@ -64,7 +64,7 @@ LEVEL 2 - LEVEL 3
 
 Goal: The password for the next level is stored in a file called --spaces in this filename-- located in the home directory
 
-Solution:
+Commands:
 
 ssh bandit2@bandit.labs.overthewire.org -p 2220
 
@@ -81,5 +81,30 @@ exit
 
 Result:Successfully obtained the password for Level 3.
 
+
+
+Level 3 - Level 4
+
+Goal: The password for the next level is stored in a hidden file in the inhere directory.
+
+Commands:
+
+ssh bandit3@bandit.labs.overthewire.org -p 2220
+
+Enter the password obtained from Level 2.
+
+cd inhere means move into the folder named inhere so you can access the files inside it.
+
+cd inhere
+
+ls -a(. .. ...Hiding-From-You)
+
+cat ...Hiding-From-You
+
+The output is the password for Bandit Level 4
+
+exit
+
+Result:Successfully obtained the password for Level 4.
 
 
