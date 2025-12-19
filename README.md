@@ -17,11 +17,15 @@ Goal: Find the password stored in a file.
 
 Commands used:
 ssh bandit1@bandit.labs.overthewire.org -p 2220
+
 Password:bandit0
 
 ls
+
 cat readme
+
 The output is the password for Bandit Level 1
+
 exit
 
 Result:Successfully obtained the password for Level 1.
@@ -35,8 +39,11 @@ ssh bandit1@bandit.labs.overthewire.org -p 2220
 Enter the Password obtained from the level 0
 
 ls
+
 cat ./-
+
 The output is the password for Bandit Level 2
+
 exit
 
 Result:Successfully obtained the password for Level 2.
