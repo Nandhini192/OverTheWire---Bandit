@@ -5,7 +5,7 @@ LEVEL 0:
 Goal: Login to the Bandit server using SSH.
 
 Command used:
-ssh bandit0@bandit.labs.overthewire.org -p 2220
+ssh bandit0@bandit.labs.overthewire.org -p 2220                                                                                  
 Password:bandit0
 
 Result:Successfully logged in to bandit level 0.
