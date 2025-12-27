@@ -13,6 +13,9 @@ Result:Successfully logged in to bandit level 0.
 
 
 
+
+
+
 LEVEL 0 - LEVEL 1
 
 Goal: Find the password stored in a file.
@@ -33,6 +36,9 @@ The output is the password for Bandit Level 1
 exit
 
 Result:Successfully obtained the password for Level 1.
+
+
+
 
 
 
@@ -60,6 +66,8 @@ Result:Successfully obtained the password for Level 2.
 
 
 
+
+
 LEVEL 2 - LEVEL 3
 
 Goal: The password for the next level is stored in a file called --spaces in this filename-- located in the home directory
@@ -80,6 +88,9 @@ The output is the password for Bandit Level 3
 exit
 
 Result:Successfully obtained the password for Level 3.
+
+
+
 
 
 
@@ -106,6 +117,9 @@ The output is the password for Bandit Level 4
 exit
 
 The output is the password for Bandit Level 4
+
+
+
 
 
 
@@ -146,6 +160,9 @@ The output is the password for Bandit Level 5.
 exit.
 
 Result:Successfully obtained the password for Level 5.
+
+
+
 
 
 
