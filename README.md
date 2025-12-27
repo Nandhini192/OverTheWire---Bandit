@@ -105,6 +105,99 @@ The output is the password for Bandit Level 4
 
 exit
 
-Result:Successfully obtained the password for Level 4.
+The output is the password for Bandit Level 4
+
+
+
+Level 4 -Level 5
+
+Goal:The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.
+
+Commands:
+
+ssh bandit4@bandit.labs.overthewire.org -p 2220
+
+Enter the password obtained from the Level 3
+
+Type ls to see inhere
+
+Type cd inhere
+
+Type ls
+
+many files like:
+
+-file00  -file01  -file02  ...
+
+Type file ./*
+
+output like:
+
+./-file00: data
+./-file01: data
+./-file07: ASCII text
+
+ASCII text is human-readable file
+
+Type cat ./-file07
+
+The output is the password for Bandit Level 5.
+
+exit.
+
+Result:Successfully obtained the password for Level 5.
+
+
+
+Level 5 - Level 6
+
+Goal:The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
+
+human-readable
+1033 bytes in size
+not executable
+
+Commands:
+
+ssh bandit5@bandit.labs.overthewire.org -p 2220
+
+Enter the password obtained from the Level 4
+
+Type ls to see inhere
+
+Type cd inhere
+
+Type find . -type f -size 1033c ! -executable
+
+output be like ./maybehere07/.file2
+
+Type cat ./maybehere07/.file2
+
+The output is the password for Bandit Level 6.
+
+exit.
+
+Result:Successfully obtained the password for Level 6.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
